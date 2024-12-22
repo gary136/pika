@@ -1,0 +1,116 @@
+/* Room Listings Styles */
+.room-listings {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .filters {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filters h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .filter-group {
+    margin-bottom: 1rem;
+  }
+  
+  .filter-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-group input,
+  .filter-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .apply-filters {
+    background-color: #F3B391;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apply-filters:hover {
+    background-color: #f39470;
+  }
+  
+  .room-listings-grid {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .room-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center the content */
+    justify-content: space-between; /* Spread the content evenly */
+    text-align: center; /* Center text within the card */
+  }
+  
+  .room-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .room-card p {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Room Card Buttons */
+ .room-card-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 1rem;
+  }
+  
+  .see-details {
+    background-color: #6c63ff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .see-details:hover {
+    background-color: #5b52cc;
+  }
+  
+  .join-waitlist {
+    background-color: #f3b391;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .join-waitlist:hover {
+    background-color: #f39470;
+  }
+  

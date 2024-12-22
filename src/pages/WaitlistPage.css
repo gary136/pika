@@ -1,0 +1,51 @@
+.waitlist-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .back-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .waitlist-page h2 {
+    margin-bottom: 10px;
+  }
+  
+  .waitlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .waitlist li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .join-form {
+    margin-top: 20px;
+  }
+  
+  .join-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .join-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
