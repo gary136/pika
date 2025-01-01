@@ -1,0 +1,96 @@
+.user-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-section {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-section h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .waitlist-list,
+  .notification-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .waitlist-item,
+  .notification-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .waitlist-item:last-child,
+  .notification-item:last-child {
+    border-bottom: none;
+  }
+  
+  .status {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .status.matched {
+    color: green;
+  }
+  
+  .status.waiting {
+    color: orange;
+  }
+  
+  .profile-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .profile-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .update-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .update-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .notification-item p {
+    margin: 0;
+  }
+  
+  .notification-item span {
+    font-size: 0.9em;
+    color: #666;
+  }
+  

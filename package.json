@@ -10,6 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -24,5 +32,10 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.13.0",
     "vite": "^6.0.3"
-  }
+  },
+  "description": "## Overview This app connects renters seeking roommates to save on rent and helps apartments or houses find renters more quickly. Users can join a waitlist for specific rooms, set preferences for compatibility, and connect with others once a waitlist is filled. Landlords and apartment owners can also benefit by quickly finding suitable tenants.",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

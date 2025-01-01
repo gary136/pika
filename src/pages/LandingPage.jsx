@@ -9,7 +9,7 @@ const LandingPage = () => {
       <section className="hero">
         <h1>Find Your Perfect Roommates</h1>
         <p>Save on rent by connecting with compatible roommates and landlords quickly and easily.</p>
-        <Link to="/signup" className="cta-button">Get Started</Link>
+        <Link to="/auth" className="cta-button">Get Started</Link>
       </section>
 
       <section className="features">

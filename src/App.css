@@ -3,6 +3,25 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #6c63ff;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+footer {
+  background-color: #f3b391;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 
 .logo {
@@ -35,8 +54,48 @@
 
 .card {
   padding: 2em;
+  margin: 1em auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
 }
 
+/* Error Page Styling */
+.not-found {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f00;
+}
+
+.not-found p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Utility Text */
 .read-the-docs {
   color: #888;
+}
+
+/* Button Styling */
+button {
+  background-color: #6c63ff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #5b52cc;
 }
